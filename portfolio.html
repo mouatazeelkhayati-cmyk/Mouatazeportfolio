@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mouataze Elkhayati – Portfolio Ingénieur IA</title>
+<style>
+:root{--bg:#f7f8fb;--card:#fff;--tx:#161a23;--mu:#5b6475;--ac:#3b5bdb;--bd:#e2e6ef;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10131a;--card:#181c26;--tx:#eef0f6;--mu:#9aa3b5;--ac:#8ea2ff;--bd:#2a3040;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#10131a;--card:#181c26;--tx:#eef0f6;--mu:#9aa3b5;--ac:#8ea2ff;--bd:#2a3040;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}
+main{max-width:880px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:2rem;margin:.2em 0}
+h2{margin:2em 0 .6em;font-size:1.2rem;color:var(--ac);text-transform:uppercase;letter-spacing:.06em}
+.sub{color:var(--mu);font-size:1.05rem}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px 20px;margin-bottom:14px}
+.card h3{margin:0 0 4px;font-size:1.1rem}
+.kpi{display:inline-block;background:var(--ac);color:var(--bg);border-radius:999px;padding:2px 12px;font-size:.85rem;font-weight:600;margin:4px 6px 4px 0}
+.tags span{display:inline-block;border:1px solid var(--bd);border-radius:8px;padding:1px 9px;margin:3px 4px 0 0;font-size:.8rem;color:var(--mu)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+p{margin:.4em 0}
+a{color:var(--ac)}
+</style>
+</head>
+<body>
+<main>
+<p class="sub">Portfolio · Candidature ATLAN Space (réf. AI-DEV-2025)</p>
+<h1>Mouataze Elkhayati</h1>
+<p class="sub">Élève ingénieur Big Data &amp; IA (UIR) · Machine Learning · Deep Learning · NLP · Vision par ordinateur</p>
+<p>Je conçois, entraîne et évalue des modèles d'IA, puis je les rends exploitables dans des services intégrables. Chaque projet ci-dessous suit la même logique : problème, approche, résultat mesuré.</p>
+<p><a href="mailto:mouatazeelkhayati@gmail.com">mouatazeelkhayati@gmail.com</a> · 06 12 71 38 48 · Salé, Maroc</p>
+
+<h2>Projets IA</h2>
+
+<div class="card">
+<h3>Classification d'images par CNN</h3>
+<span class="kpi">94 % accuracy</span>
+<p><b>Problème :</b> classer des images en 10 classes. <b>Approche :</b> CNN TensorFlow/Keras, data augmentation et régularisation pour limiter le surapprentissage. <b>Résultat :</b> 94 % d'accuracy sur le jeu de test.</p>
+<div class="tags"><span>Vision par ordinateur</span><span>Python</span><span>TensorFlow/Keras</span></div>
+</div>
+
+<div class="card">
+<h3>Assistant conversationnel pharmaceutique</h3>
+<span class="kpi">92 % intentions</span><span class="kpi">&lt; 2 s</span>
+<p><b>Problème :</b> répondre aux questions sur les médicaments et leurs posologies. <b>Approche :</b> classification d'intentions avec un modèle de type BERT, génération des réponses, plus de 1 200 documents structurés dans MongoDB. <b>Résultat :</b> 92 % de précision, réponses en moins de 2 secondes.</p>
+<div class="tags"><span>NLP</span><span>Transformers</span><span>MongoDB</span><span>Python</span></div>
+</div>
+
+<div class="card">
+<h3>Assistant RAG sur base documentaire</h3>
+<span class="kpi">50 questions évaluées</span>
+<p><b>Problème :</b> obtenir des réponses sourcées et fiables à partir de documents. <b>Approche :</b> découpage, embeddings, indexation FAISS, LLM open source via Hugging Face, API FastAPI conteneurisée avec Docker. <b>Résultat :</b> qualité évaluée sur 50 questions (pertinence, taux d'hallucination).</p>
+<div class="tags"><span>LLM</span><span>RAG</span><span>LangChain</span><span>FAISS</span><span>FastAPI</span><span>Docker</span></div>
+</div>
+
+<div class="card">
+<h3>Modèle de prédiction</h3>
+<span class="kpi">F1 = 0,89</span>
+<p><b>Approche :</b> nettoyage et analyse de 10 000 observations, comparaison de régression logistique, Random Forest et XGBoost. <b>Résultat :</b> Random Forest retenu, F1-score de 0,89.</p>
+<div class="tags"><span>Machine Learning</span><span>Scikit-learn</span><span>Pandas</span></div>
+</div>
+
+<h2>Compétences clés pour le poste</h2>
+<div class="grid">
+<div class="card"><b>ML / Deep Learning</b><p>TensorFlow/Keras, Scikit-learn, XGBoost, CNN, Transformers</p></div>
+<div class="card"><b>NLP &amp; Vision</b><p>Intentions, RAG, Hugging Face, LangChain, classification d'images</p></div>
+<div class="card"><b>Données</b><p>Python, SQL/MySQL, MongoDB, Spark, Hadoop</p></div>
+<div class="card"><b>Intégration</b><p>FastAPI, API REST, Docker, Git, Linux, AWS</p></div>
+</div>
+
+<h2>Parcours</h2>
+<div class="card"><b>Cycle ingénieur Big Data &amp; IA, UIR (2022 – 2027)</b><p>Advanced NLP &amp; Computer Vision · Advanced Big Data Technologies · Data Mining · Cloud Data-Driven Applications.</p></div>
+<div class="card"><b>Stage Administration Système, FICOSA (juillet 2025)</b><p>Déploiement de GLPI avec Docker et MySQL, migration de plus de 150 équipements, benchmark de solutions.</p></div>
+
+<h2>Contact</h2>
+<div class="card"><p>Disponible pour un entretien. <a href="mailto:mouatazeelkhayati@gmail.com">Écrivez-moi</a>.</p></div>
+</main>
+</body>
+</html>
